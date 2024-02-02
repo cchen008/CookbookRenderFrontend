@@ -1,0 +1,26 @@
+.recipe {
+    border-style: solid;
+    border-color: #c1ccce;
+    border-width: 1px;
+    border-radius: 1em;
+    box-shadow: 5px 10px 20px #accbcf;
+    margin-top: 5%;
+    width: 55%;
+    margin-left: 22.5%;
+    font-size: 1.25em;
+    background-color: #d1eaec;
+    font-family: Helvetica;
+}
+
+button {
+    background-color: #6ab8b1;
+    color: white;
+    border-radius: 5px;
+    border-width: 2px;
+    font-size: 14px;
+    margin-left: 1px;
+}
+
+button:hover {
+    background-color: #6c8c91;
+}

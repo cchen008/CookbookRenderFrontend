@@ -1,0 +1,33 @@
+.nav-bar {
+    list-style-type: none;
+    margin: 0px 0px 20px 0px;
+    padding: 0px 0px 15px 0px;
+    background-color: #9cd6c3;
+}
+
+.nav {
+    display: inline;
+}
+
+.nav-link {
+    padding: 10px;
+    margin: 100px 10px 100px 0px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+    /* background-color: grey; */
+}
+
+.nav-icon {
+    position: relative;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav-link:hover {
+    background-color: grey;
+}

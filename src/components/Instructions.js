@@ -20,11 +20,9 @@ const Instructions = ({instructions, edit, recipeId, refresh}) => {
         setEditModal("");
     }
     
-    const handleDeleteClick = (instructionId) => {
-        RecipeService.removeInstruction(recipeId, instructionId);
-        setTimeout(() => {
-            refresh(recipeId)
-        }, 100);
+    const handleDeleteClick = async (instructionId) => {
+        await RecipeService.removeInstruction(recipeId, instructionId);
+        refresh(recipeId);
     }
 
     const handleCloseButton = (setInput, setModal) => {

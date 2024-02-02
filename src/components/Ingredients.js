@@ -58,8 +58,8 @@ const Ingredients = ({ingredients, edit, id, refresh}) => {
         console.log(newIngredient);
     }
 
-    const handleDelete = (ingredientId) => {
-        RecipeService.removeIngredient(id, ingredientId);
+    const handleDelete = async (ingredientId) => {
+        await RecipeService.removeIngredient(id, ingredientId);
         refresh(id);
     }
 

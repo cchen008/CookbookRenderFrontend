@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const RECIPE_REST_API_URL = "https://spring-render-hpw3.onrender.com/api/v1/recipes";
+const RECIPE_REST_API_URL = "https://cookbook-backend-lyjm.onrender.com/api/v1/recipes";
 
 const getAllRecipes = () => {
     return axios.get(RECIPE_REST_API_URL)

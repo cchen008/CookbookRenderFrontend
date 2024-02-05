@@ -18,7 +18,10 @@ Cookbook has been deployed using Render.com's free tier. Use this [link](https:/
 * Click on the delete button to remove a recipe.
   
 ### Edit Recipe page
-* 
+* Clicking on the recipe name or description will open up a modal to edit the two fields.
+* Clicking on the time section right below the recipe description will open a modal to edit the prep time and cook time.
+* Clicking on the add button for ingredients will allow you to add a new ingredient. The edit button will allow you to edit the selected ingredient and the delete button will remove that ingredient.
+* The instruction section will have the same functionality as the ingredient section.
 
 ## Getting Started
 ### Installing
